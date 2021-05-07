@@ -1,0 +1,72 @@
+body {
+    font-size:12pt;
+    font-family:"Trebuchet MS",Verdana,Helvetica;
+}
+
+#banner-container {
+    background-color: #FCBE8B;
+    padding:8px;
+}
+
+#banner-left {
+    text-align:left;
+    width:49%;
+    display: inline-block;
+}
+
+#banner-right {
+    text-align:right;
+    width:49%;
+    display: inline-block;
+}
+
+#banner-2 {
+    text-align:center;
+    font-size:20px;
+    width:100%;
+}
+
+#myForm {
+    background-color:#FFFFBB;
+    padding:8px;
+}
+
+#inpName {
+    width:25em;
+}
+
+#inpState {
+    width:5em;
+}
+
+#inpZIP {
+    width:5em;
+}
+
+#emailErrMessage {
+    color: red;
+    display:none;
+}
+
+#inpLinkedin {
+    width:25em;
+}
+
+#inpPortfolio {
+    width:25em;
+}
+
+textarea {
+    height:4em;
+    width:25em;
+    display:inline-block;
+    vertical-align:middle;
+}
+
+#inpSchoolState {
+    width:5em;
+}
+
+.minibar {
+    width:15%;
+}
