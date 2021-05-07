@@ -1,0 +1,166 @@
+<html>
+<head>
+    <title> Build Your Resume </title>
+    <link rel="stylesheet" href="a-prj.css">
+</head>
+
+<body>
+<script type="text/javascript" src="a-prj.js"></script>
+
+<div id="banner-container">
+    <div id="banner-left"> Student Name: Dayton VanHouten </div> 
+    <div id="banner-right">WEB-115 section 0004 </div>
+    <p id="banner-2">Term Project: Build Your Resume</p>
+</div>
+    
+<form id = "myForm">
+    <p> Name: 
+        <input type="text" id="inpName" placeholder = "Please enter your name." /> 
+    </p>
+    <p> City: 
+        <input type="text" id="inpCity" placeholder = "City" />
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        State: 
+        <input type="text" id="inpState" placeholder="State" />
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        ZIP: 
+        <input type="text" id="inpZIP" placeholder="00000" />
+    </p>
+    <p>
+        Phone number: 
+        <input type="text" id="inpPhone" placeholder = "555-555-5555" />
+    </p>
+    <p>
+        Email addr: 
+        <input type="text" id="inpEmail" placeholder = "user@whatever.com" />
+        &nbsp; &nbsp; &nbsp;  
+        <span id="emailErrMessage">&larr; Please enter a valid email address.</span>
+    </p>
+    <p>
+        LinkedIn URL: 
+        <input type="text" id="inpLinkedin" placeholder = "linkedin.com/in/your-name" />
+    </p>
+    <p>
+        Portfolio Link:
+        <input type="text" id="inpPortfolio" placeholder = "mydomain.com/portfolio.html" />
+    </p>
+
+    <hr>
+
+    <p>
+        Job title:
+        <input type="text" id="inpJobTitle" placeholder = "Web Developer" />
+    </p>
+    <!-- TIL placeholder text for textareas won't behave unless opening and closing tags are all on one line -->
+    <p>
+        Job Skills 1:
+        <textarea id="inpJobSkills1" placeholder = "Junior Web Developer able to build a Web presence from the ground up... "></textarea>
+    </p>
+    <p>
+        Job Skills 2:
+        <textarea id="inpJobSkills2" placeholder = "Skilled at writing well-designed, testable and efficient code using... "></textarea>
+    </p>
+    <p>
+        Job Skills 3:
+        <textarea id="inpJobSkills3" placeholder = "Fast learner, hard worker and team player who is proficient in an array... "></textarea>
+    </p>
+
+    <hr>
+
+    <p>
+        Technical Toolbox: 
+    <p/>
+    <p>
+        Tech Skills Group 1:
+        <input type="text" id="inpTechSkillsGroupName1"
+        placeholder="Web Tools"> 
+        &nbsp; &nbsp; &nbsp;
+        <textarea id="inpTechSkills1" placeholder = "HTML, CSS, JavaScript, jQuery, JSON, XML, React, AngularJS, Python, PHP... "></textarea>
+    </p>
+
+    <p>
+        Tech Skills Group 2:
+        <input type="text" id="inpTechSkillsGroupName2"
+        placeholder="Adobe Creative Cloud"> 
+        &nbsp; &nbsp; &nbsp;
+        <textarea id="inpTechSkills2" placeholder = "Photoshop, Illustrator, LightRoom, InDesign, Dreamweaver, After Effects... "></textarea>
+    </p>
+
+    <hr>
+
+    <p>Education:</p>
+    <p>
+        College or University Name, City and State: 
+        <input type="text" id="inpSchool"
+        placeholder="XYZ University, Springfield NJ"> 
+    </p>
+    <p>
+        Degree:
+        <input type="text" id="inpDegree" placeholder = "BS Information Technology" />
+    </p>
+    <!-- TIL there's no consistent cross-browser way to render newlines in placeholder text.
+        The below works in Chrome, but maybe not in Firefox? -->
+    <p>
+        Courses:
+        <textarea id="inpCourses" placeholder = "Web & Multimedia Development &#10;Digital and Interactive Design &#10;..."></textarea>
+    </p>
+
+    <hr>
+
+    <p>Experience:</p>
+    <p>
+        Current / Most Recent Employer, City and State: 
+        <input type="text" id="inpEmployer1"
+        placeholder="ABC Shell Holdings, Greenville NJ">
+    </p>
+    <p> 
+        Start Date: <input type="date" id="inpStartDate1"> 
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        End Date: <input type="date" id="inpEndDate1">
+    </p>
+    <p>
+        Achievements:
+        <textarea id="inpJobDesc1" placeholder="Developed a dynemic, secure web site from scratch.  &#10;Used SEO best practices to..."></textarea>
+    </p>
+
+    <hr class="minibar">
+
+    <p>
+        First Previous Employer, City and State: 
+        <input type="text" id="inpEmployer2"
+        placeholder="ABC Shell Holdings, Greenville NJ">
+    </p>
+    <p> 
+        Start Date: <input type="date" id="inpStartDate2"> 
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        End Date: <input type="date" id="inpEndDate2">
+    </p>
+    <p>
+        Achievements:
+        <textarea id="inpJobDesc2" placeholder="Developed a dynemic, secure web site from scratch.  &#10;Used SEO best practices to..."></textarea>
+    </p>
+
+    <hr class="minibar">
+
+    <p>
+        Next Previous Employer, City and State: 
+        <input type="text" id="inpEmployer3"
+        placeholder="ABC Shell Holdings, Greenville NJ">
+    </p>
+    <p> 
+        Start Date: <input type="date" id="inpStartDate3"> 
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        End Date: <input type="date" id="inpEndDate3">
+    </p>
+    <p>
+        Achievements:
+        <textarea id="inpJobDesc3" placeholder="Developed a dynemic, secure web site from scratch.  &#10;Used SEO best practices to..."></textarea>
+    </p>
+
+
+    <input type = "button" id = "myButton" value = "Display Resume" onclick="myWindow()" />
+
+</form>
+
+</body>
+</html>
